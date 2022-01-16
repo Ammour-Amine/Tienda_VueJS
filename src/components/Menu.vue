@@ -1,7 +1,7 @@
 <template>
     <nav>
         <ul>
-        <li><i class="fas fa-home"><a href="#"></a></i></li>
+        <li><a href="#"><i class="fas fa-home"></i></a></li>
         <li><a href="#">Informática y Gaming</a></li>
         <li><a href="#">Televisión</a></li>
         <li><a href="#">Frigoríficos</a></li>
@@ -43,6 +43,10 @@ a{
     text-decoration: none;
     color: #c46f62;
     font-size: 1.1rem;
+}
+
+i{
+    color: white;
 }
 
 

@@ -1,17 +1,23 @@
 <template>
   <Header />
   <Menu />
+  <Migas />
+  <Descripcion />
+  <Footer />
 </template>
 
 <script>
 import Header from './components/Header.vue'
 import Menu from './components/Menu.vue'
-
+import Migas from './components/Migas.vue'
+import Descripcion from './components/Descripcion.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
-    Header, Menu
+    Header, Menu, Migas,
+    Descripcion, Footer
 
   }
 }
@@ -23,7 +29,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: white;
+  color: rgb(32, 31, 31);
   margin: 0;
 }
 
