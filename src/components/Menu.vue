@@ -1,0 +1,49 @@
+<template>
+    <nav>
+        <ul>
+        <li><i class="fas fa-home"><a href="#"></a></i></li>
+        <li><a href="#">Informática y Gaming</a></li>
+        <li><a href="#">Televisión</a></li>
+        <li><a href="#">Frigoríficos</a></li>
+        <li><a href="#">Climatización</a></li>
+    </ul>
+    </nav>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style scoped>
+
+ul {
+    display: flex;
+    justify-content: center;
+    background-color: #465657;
+    margin:0 ;
+    padding: 0;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    padding: 20px 30px;
+}
+
+li:hover{
+    background-color: #c46f62;
+}
+li:hover a {
+    color: #465657;
+} 
+
+a{
+    text-decoration: none;
+    color: #c46f62;
+    font-size: 1.1rem;
+}
+
+
+</style>
