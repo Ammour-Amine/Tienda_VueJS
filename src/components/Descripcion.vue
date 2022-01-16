@@ -19,12 +19,12 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
     .descripcion{
         display: flex;
         margin: 50px 200px;
-        align-items: center;
+        align-items: flex-start;
         justify-content: space-between;
     }
 
@@ -39,6 +39,10 @@ export default {
     p{
         text-align: start;
         margin-right: 100px;
+        margin-top: 40px;
+    }
+    video {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     }
 
 </style>

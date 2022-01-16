@@ -2,6 +2,10 @@
   <Header />
   <Menu />
   <Migas />
+  <div class="producto">
+    <Product-img />
+    <DatosCompra />
+  </div>
   <Descripcion />
   <Footer />
 </template>
@@ -10,14 +14,17 @@
 import Header from './components/Header.vue'
 import Menu from './components/Menu.vue'
 import Migas from './components/Migas.vue'
+import ProductImg from './components/ProductImg.vue'
+import DatosCompra from './components/DatosCompra.vue'
 import Descripcion from './components/Descripcion.vue'
 import Footer from './components/Footer.vue'
+
 
 export default {
   name: 'App',
   components: {
-    Header, Menu, Migas,
-    Descripcion, Footer
+    Header, Menu, Migas,ProductImg, DatosCompra, Descripcion, Footer,
+    
 
   }
 }
@@ -35,5 +42,10 @@ export default {
 
 body {
   margin: 0;
+}
+.producto{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 </style>

@@ -26,6 +26,7 @@ export default {
         padding: 30px 200px;
         background-color: #465657;
         color: white;
+        margin-top: 70px;
     }
 
     form{
