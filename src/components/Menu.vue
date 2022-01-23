@@ -20,6 +20,7 @@ export default {
 
 ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     background-color: #465657;
     margin:0 ;

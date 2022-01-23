@@ -18,6 +18,7 @@ export default {
 
 .bread-crumb {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     margin-left: 200px;
     margin-top: 30px;

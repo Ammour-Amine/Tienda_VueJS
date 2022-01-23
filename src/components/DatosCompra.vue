@@ -43,6 +43,7 @@ export default {
 
 #producto{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     margin-right: 200px;
     justify-content: start;
@@ -50,12 +51,14 @@ export default {
 
 .datos{
     display: flex;
+    flex-wrap: wrap;
     align-items: flex-end;
     justify-content: space-between;
 }
 
 .bt-comprar{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
 }
 

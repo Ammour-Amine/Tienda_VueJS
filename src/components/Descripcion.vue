@@ -8,7 +8,7 @@
             
             MEMC para una mayor fluidez sin movimientos bruscos La tecnología MEMC añade de forma automática fotogramas artificiales en el contenido con baja velocidad de fotogramas para obtener una experiencia visual más fluida sin que se produzcan fallos en las imágenes. Esto produce una visualización perfecta, independientemente de lo que estés viendo, ya sea una película de acción o un juego de carreras</p>
         </div>
-        <video src="../assets/video.webm" width="640" height="480" controls></video>
+        <video src="../assets/video.mp4" width="500" height="400" controls></video>
     </div>
     
 </template>
@@ -23,6 +23,7 @@ export default {
 
     .descripcion{
         display: flex;
+        flex-wrap: wrap;
         margin: 50px 200px;
         align-items: flex-start;
         justify-content: space-between;
@@ -40,6 +41,7 @@ export default {
         text-align: start;
         margin-right: 100px;
         margin-top: 40px;
+        max-width: 500px;
     }
     video {
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;

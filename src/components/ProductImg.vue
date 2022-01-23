@@ -37,6 +37,7 @@ export default {
 
 #producto{
     display: flex;
+    flex-wrap: wrap;
     margin-left: 200px;
     margin-top: 30px;
     margin-bottom: 100px;
@@ -45,6 +46,7 @@ export default {
 
 .peq-img{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
 }
 

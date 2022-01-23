@@ -21,6 +21,7 @@ export default {
 <style scoped>
     footer {
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
         padding: 30px 200px;
@@ -31,6 +32,7 @@ export default {
 
     form{
         display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
         align-items: flex-start;
         font-size: 1.5rem;
